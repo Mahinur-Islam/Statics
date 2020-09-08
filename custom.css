@@ -1,0 +1,25 @@
+@keyframes progress-bar {
+    0%{
+        Width: 0;
+    }
+}
+.progress-bar{
+    animation: progress-bar 2s;
+}
+.image2:hover {
+        width: 30%;
+        -webkit-animation:spin 2s linear ;
+        -moz-animation:spin 2s linear ;
+        animation:spin 1s linear ;
+    }
+    @-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+    @-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+    @keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
+.image2
+{
+
+width: 30%;
+padding: 1px 1px 1px 1px;
+margin: 1px 1px 1px 1px;
+overflow: hidden;
+}
